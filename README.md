@@ -1,12 +1,13 @@
-# Build AI Low-Code Platform — Part 2
+# Build AI Low-Code Platform — Part 3
 
-This Angular project is part of the **Foblex Flow Tutorial Series**, which demonstrates how to build visual editors and node-based interfaces using [Foblex Flow](https://flow.foblex.com) — a powerful open-source Angular library for interactive graphs and UI logic modeling.
+This Angular project is part of the **Foblex Flow Tutorial Series**, which shows how to build powerful visual editors and low-code tools using [Foblex Flow](https://flow.foblex.com) — a lightweight and modular open-source library for building node-based interfaces in Angular.
 
-📘 **Building AI Low-Code Platform in Angular — Part 2: Creating Your First Flow**  
-In this part, we create draggable nodes using `FNodeDirective`, connect them with `FNodeOutputDirective` and `FNodeInputDirective`, and render a basic interactive flow using `FFlowComponent`.
+📘 **Building AI Low-Code Platform in Angular — Part 3: Creating Custom Nodes and a Node Palette**  
+
+In this part, we build custom Angular components for each node, add a draggable palette using `fExternalItem`, and handle dynamic node creation and connection logic using `fCreateNode` and `fCreateConnection`.
 
 🧠 Read the article:  
-**[Design Node-Based Interfaces in Angular — A Beginner’s Guide with Foblex Flow](https://medium.com/@shuzarevich/design-node-based-interfaces-in-angular-a-beginners-guide-with-foblex-flow-b3160ac3edbb)**
+**[Building AI Low-Code Platform in Angular — Part 3: Creating Custom Nodes and a Node Palette](https://medium.com/@shuzarevich/building-ai-low-code-platform-in-angular-part-3-creating-custom-nodes-and-a-node-palette-2377435effce)**
 
 ---
 
@@ -58,3 +59,7 @@ Foblex Flow is a visual node-based UI framework for Angular, ideal for building 
 
 - 🔗 GitHub: [github.com/foblex/f-flow](https://github.com/foblex/f-flow)
 - 🌐 Documentation & Live Examples: [flow.foblex.com](https://flow.foblex.com)
+
+
+
+
