@@ -1,59 +1,60 @@
-# BuildingAILowCodePlatform3
+# Build AI Low-Code Platform — Part 2
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.4.
+This Angular project is part of the **Foblex Flow Tutorial Series**, which demonstrates how to build visual editors and node-based interfaces using [Foblex Flow](https://flow.foblex.com) — a powerful open-source Angular library for interactive graphs and UI logic modeling.
 
-## Development server
+📘 **Building AI Low-Code Platform in Angular — Part 2: Creating Your First Flow**  
+In this part, we create draggable nodes using `FNodeDirective`, connect them with `FNodeOutputDirective` and `FNodeInputDirective`, and render a basic interactive flow using `FFlowComponent`.
 
-To start a local development server, run:
+🧠 Read the article:  
+**[Design Node-Based Interfaces in Angular — A Beginner’s Guide with Foblex Flow](https://medium.com/@shuzarevich/design-node-based-interfaces-in-angular-a-beginners-guide-with-foblex-flow-b3160ac3edbb)**
+
+---
+
+## 🚀 Getting Started
+
+To run the local development server:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Navigate to [http://localhost:4200](http://localhost:4200) in your browser. The app will automatically reload if you change any source files.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## ⚙️ Building
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+To compile the project for production:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+The build output will be stored in the `dist/` directory.
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 🧪 Testing
+
+### Unit tests
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+### End-to-end tests
 
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+> Note: End-to-end testing requires a configured runner (e.g. Cypress or Protractor).
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📦 About Foblex Flow
+
+Foblex Flow is a visual node-based UI framework for Angular, ideal for building IDEs, automation tools, low-code platforms, and more.
+
+- 🔗 GitHub: [github.com/foblex/f-flow](https://github.com/foblex/f-flow)
+- 🌐 Documentation & Live Examples: [flow.foblex.com](https://flow.foblex.com)
