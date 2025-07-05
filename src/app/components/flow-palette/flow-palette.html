@@ -1,0 +1,6 @@
+@for (node of nodes; track node.name) {
+  <div class="palette-node" fExternalItem [fData]="node" [fPreviewMatchSize]="true">
+    <span class="icon">{{ node.icon }}</span>
+    <span>{{ node.name }}</span>
+  </div>
+}

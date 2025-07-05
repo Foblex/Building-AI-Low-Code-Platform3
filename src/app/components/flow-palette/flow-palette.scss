@@ -1,0 +1,28 @@
+:host {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 8px;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+::ng-deep .palette-node {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  padding: 5px;
+  background-color: white;
+
+  .icon {
+    font-family: 'Material Symbols Outlined';
+    font-size: 20px;
+    background: linear-gradient(to right, #4b91f1, #5c2ae8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

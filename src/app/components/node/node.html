@@ -1,0 +1,15 @@
+<div class="connectors inputs">
+  @for (connector of data().inputs; track $index) {
+    <connector fNodeInput [fInputId]="connector + ' ' + data().id" fInputConnectableSide="left"/>
+  }
+</div>
+<div class="connectors outputs">
+  @for (connector of data().outputs; track $index) {
+    <connector fNodeOutput [fOutputId]="connector + ' ' + data().id" fOutputConnectableSide="right"/>
+  }
+</div>
+<div class="header">
+  <span class="icon">{{ data().icon }}</span>
+  <span>{{ data().name }}</span>
+</div>
+<div class="description">{{ data().shortDescription }}</div>

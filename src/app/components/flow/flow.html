@@ -1,0 +1,22 @@
+<f-flow fDraggable
+        (fCreateNode)="createNode($event)"
+        (fCreateConnection)="createConnection($event)">
+  <f-canvas>
+    <f-connection-for-create></f-connection-for-create>
+    @for (connection of connections(); track connection.id) {
+      <f-connection [fConnectionId]="connection.id"
+                    [fOutputId]="connection.from"
+                    [fInputId]="connection.to"/>
+    }
+    @for (node of nodes(); track node.id) {
+      <node
+        fNode
+        fDragHandle
+        [fNodePosition]="node.position"
+        [fNodeId]="node.id" [data]="node">
+      </node>
+    }
+  </f-canvas>
+</f-flow>
+<flow-palette/>
+
